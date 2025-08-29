@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tripeando | Centroamérica</title>
+  <meta name="description" content="viaje grupales. Reserva por WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand" aria-label="Inicio">
+  <img src="img/logo.jpg" alt="" class="logo" />
+  <span>Tripeando</span>
+</a>
+
+      <nav aria-label="Principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu" class="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#viajes">Viajes</a></li>
+          <li><a href="#faq">Preguntas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <a class="cta-whatsapp" href="#" id="whatsappHeader">Cotiza por WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="inicio" class="hero">
+    <div class="container hero-inner">
+      <h1>Viajando juntos, <span class="accent">Descubriendo juntos</span></h1>
+      <p>Publicamos salidas para cualquier persona que quiera unirse. Tú llegas, te sumas al grupo y disfrutas. Fácil, seguro y económico.</p>
+      <div class="hero-actions">
+        <a href="#viajes" class="btn">Ver próximos viajes</a>
+        <a href="#contacto" class="btn btn-outline">Hablar por WhatsApp</a>
+      </div>
+    </div>
+  </main>
+
+ 
+
+  <!-- Viajes -->
+  <section id="viajes" class="container trips">
+    <h2>Próximos viajes</h2>
+    <p class="sub">Todos son <strong>grupales abiertos al público</strong>. Puedes ir solo, con amigos o en familia.</p>
+
+    <div class="grid" id="gridViajes">
+      <!-- Guatemala: 2 días / 1 noche -->
+      <article class="card" data-pais="Guatemala" data-title="Guatemala: Aurora, Mundo Petapa y Hubbitenango" data-days="2" data-nights="1" data-date="sabado 4 y domingo 5 de octubre">
+        <img src="img/viajeguate.png" alt="Antigua Guatemala, mundo petapa, Hubbitenango" />
+        <div class="card-body">
+          <h3>Guatemala (2 días / 1 noche)</h3>
+          <ul class="chip-list">
+            <li class="chip">Zoológico La Aurora</li>
+            <li class="chip">Mundo Petapa</li>
+            <li class="chip">Hubbitenango</li>
+          </ul>
+          <p class="meta"><strong>País:</strong> Guatemala · <strong>Ideal para:</strong> Familias y amigos
+            <br>
+            <strong>Fecha:</strong>Sabado 4 y domingo 5 de octubre  
+            <br>
+            <strong>Lugar de salida</strong>Gasolinera Texaco La Montañita, Santa María, Usulután</p>
+          <div class="card-actions">
+            <button class="btn btn-outline ver-detalle" data-trip="Guatemala (2dias/1noche)  ">Ver detalles</button>
+            <button class="btn cotizar" data-trip="Guatemala (2d/1n)">Cotizar por WhatsApp</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- El Salvador -->
+      <article class="card" data-pais="El Salvador" data-title="AMAPULAPA" data-days="1" data-nights="0">
+        <img src="img/AMAPULAPA.png" alt="Ruta de Las Flores, El Salvador" />
+        <div class="card-body">
+          <h3>AMAPULAPA (1 día)</h3>
+          <ul class="chip-list">
+            <li class="chip">AMAPULAPA</li>
+          </ul>
+          <p class="meta"><strong>País:</strong> El Salvador · <strong>Ideal para:</strong> Familia y amigos
+          <br>
+          <strong>Fecha:</strong>Gasolinera Texaco La Montañita, Santa María, Usulután
+          <br>
+          <strong>Lugar de salida:</strong>Domingo 13 de agosto
+          </p>
+          <div class="card-actions">
+            <button class="btn btn-outline ver-detalle" data-trip="Ruta de Las Flores (1 día)">Ver detalles</button>
+            <button class="btn cotizar" data-trip="Ruta de Las Flores (1 día)">Cotizar por WhatsApp</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Guatemala -->
+      <article class="card" data-pais="Guatemala" data-title="Guatemala: Aurora, Mundo Petapa y Hubbitenango" data-days="2" data-nights="1">
+        <img src="img/agotado.png" alt="Antigua Guatemala" />
+        <div class="card-body">
+          <h3>Guatemala(2 días / 1 noche)</h3>
+          <ul class="chip-list">
+            <li class="chip">Zoológico La Aurora</li>
+            <li class="chip">Mundo Petapa</li>
+            <li class="chip">Hubbitenango</li>
+          </ul>
+          <p class="meta"><strong>País:</strong> Guatemala · <strong>Ideal para:</strong> Familias y amigos
+          <br>
+            <strong>Fecha:</strong>Sabado 4 y domingo 5 de Diciembre
+          </p>
+          <div class="card-actions">
+            <button class="btn btn-outline ver-detalle" data-trip="Copán Ruinas (2 dias/1 noche)">Ver detalles</button>
+            <button class="btn cotizar" data-trip="Copán Ruinas (2d/1n)">Cotizar por WhatsApp</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="container faq">
+    <h2>Preguntas frecuentes</h2>
+    <details>
+      <summary>¿Los viajes son para cualquier persona?</summary>
+      <p>Sí. Son <strong>grupales abiertos</strong>: se anuncian en redes y cualquiera puede unirse hasta completar cupos.</p>
+    </details>
+    <details>
+      <summary>¿Cómo reservo mi lugar?</summary>
+      <p>Escríbenos por WhatsApp y te enviamos precios, fechas, punto de salida y métodos de pago.</p>
+    </details>
+    <details>
+      <summary>¿Puedo ir solo?</summary>
+      <p>¡Claro! Mucha gente se suma sola y allá haces nuevos amigos.</p>
+    </details>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact">
+    <div class="container contact-inner">
+      <div>
+        <h2>Contacto</h2>
+        <p>¿Listo para tu próxima aventura? Escríbenos y arma tu viaje.</p>
+        <div class="social">
+          <a class="social-btn" id="whatsappFooter" href="#" aria-label="WhatsApp">
+            <!-- WhatsApp SVG -->
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.1 17.4c-.3-.2-.7-.4-1.1-.2-.3.1-.5.6-.7.9-.1.1-.2.2-.3.2-.7.1-2.1-.6-3.1-1.6s-1.7-2.5-1.6-3.1c0-.1.1-.2.2-.3.3-.2.8-.4.9-.7.2-.4 0-.8-.2-1.1l-.6-1c-.3-.6-.7-.7-1.2-.7h-.3c-.4 0-.9.3-1.2.6-.4.5-1.1 1.2-1.1 2.3 0 1.4.9 3 2.5 4.6s3.3 2.5 4.6 2.5c1.1 0 1.8-.7 2.3-1.1.3-.3.6-.8.6-1.2v-.3c0-.5-.1-.9-.7-1.2l-1-.6zM16 3C9.4 3 4 8.4 4 15c0 2 .5 3.9 1.5 5.6L4 29l8.6-1.5C14.3 28.5 15.1 29 16 29c6.6 0 12-5.4 12-12S22.6 3 16 3z"></path></svg>
+            <span>WhatsApp</span>
+          </a>
+          <a class="social-btn" id="facebookLink" href="#" target="_blank" rel="noopener" aria-label="Facebook">
+            <!-- Facebook SVG -->
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19 6h3V2h-3c-3.3 0-6 2.7-6 6v3H9v4h4v11h4V15h4l1-4h-5V8c0-1.1.9-2 2-2z"></path></svg>
+            <span>Facebook</span>
+          </a>
+          <a class="social-btn" id="instagramLink" href="#" target="_blank" rel="noopener" aria-label="Instagram">
+            <!-- Instagram SVG -->
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 7c3.2 0 3.6 0 4.8.1 1.2.1 1.9.3 2.4.6.6.3 1 .7 1.4 1.4.3.5.5 1.2.6 2.4.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.3 1.9-.6 2.4-.3.6-.7 1-1.4 1.4-.5.3-1.2.5-2.4.6-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.9-.3-2.4-.6-.6-.3-1-.7-1.4-1.4-.3-.5-.5-1.2-.6-2.4C7 19.6 7 19.2 7 16s0-3.6.1-4.8c.1-1.2.3-1.9.6-2.4.3-.6.7-1 1.4-1.4.5-.3 1.2-.5 2.4-.6C12.4 7 12.8 7 16 7m0-2C12.7 5 12.3 5 11.1 5.1 10 5.2 9.2 5.4 8.5 5.8c-.8.4-1.5 1.1-1.9 1.9-.4.7-.6 1.5-.7 2.6C5.8 12.3 5.8 12.7 5.8 16s0 3.7.1 4.9c.1 1.1.3 1.9.7 2.6.4.8 1.1 1.5 1.9 1.9.7.4 1.5.6 2.6.7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c1.1-.1 1.9-.3 2.6-.7.8-.4 1.5-1.1 1.9-1.9.4-.7.6-1.5.7-2.6.1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.1-1.1-.3-1.9-.7-2.6-.4-.8-1.1-1.5-1.9-1.9-.7-.4-1.5-.6-2.6-.7C19.7 5 19.3 5 16 5z"></path><path d="M16 10a6 6 0 100 12 6 6 0 000-12zm0 10a4 4 0 110-8 4 4 0 010 8z"></path><circle cx="23" cy="9" r="1.2"></circle></svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" autocomplete="on">
+        <label>
+          Tu nombre
+          <input type="text" id="nombre" placeholder="Nombre y apellido" required />
+        </label>
+        <label>
+          Tu mensaje
+          <textarea id="mensaje" rows="4" placeholder="Quiero información sobre..." required></textarea>
+        </label>
+        <button type="submit" class="btn">Enviar por WhatsApp</button>
+        <small class="form-note">Se abrirá WhatsApp con el mensaje listo para enviar.</small>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Viaja Bonito · Todos los derechos reservados</p>
+      <a href="#inicio" class="to-top" aria-label="Volver arriba">↑</a>
+    </div>
+  </footer>
+
+  <!-- Modal de detalles -->
+  <dialog id="modal">
+    <article class="modal-card">
+      <header>
+        <h3 id="modalTitle">Detalles del viaje</h3>
+        <button id="closeModal" aria-label="Cerrar">✕</button>
+      </header>
+      <div id="modalBody" class="modal-body"></div>
+      <footer class="modal-footer">
+        <button class="btn" id="modalCotizar">Cotizar por WhatsApp</button>
+      </footer>
+    </article>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
